@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Why Twitter?",
+    "version": "1.0",
+    "description": "Forces you to state your intention before accessing Twitter/X",
+    "permissions": [
+        "storage",
+        "tabs",
+        "webNavigation",
+        "alarms"
+    ],
+    "host_permissions": [
+        "*://twitter.com/*",
+        "*://www.twitter.com/*",
+        "*://x.com/*",
+        "*://www.x.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "icons": {
+        "128": "icon128.png"
+    },
+    "action": {
+        "default_icon": "icon128.png",
+        "default_title": "Why Twitter?"
+    }
+}

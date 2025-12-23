@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Background -->
+  <rect width="128" height="128" fill="#000000"/>
+  
+  <!-- X Logo -->
+  <path fill="#ffffff" d="M88.244 30h12.308l-26.86 30.7 31.635 41.84H80.17L61.956 77.17 40.99 102.54H28.68l28.73-32.835L26.254 30H52.08l16.45 21.77L88.244 30zm-4.161 65.02h6.833L47.084 37.126H39.75L84.083 95.02z"/>
+  
+  <!-- Stop circle -->
+  <circle cx="64" cy="64" r="56" fill="none" stroke="#f4212e" stroke-width="6"/>
+  
+  <!-- Diagonal line -->
+  <line x1="24" y1="104" x2="104" y2="24" stroke="#f4212e" stroke-width="6" stroke-linecap="round"/>
+</svg>
